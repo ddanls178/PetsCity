@@ -16,12 +16,14 @@ namespace PetsCity
         public Form1()
         {
             InitializeComponent();
+            ArredondarPanel(pnlMarrom1, 35);
+            ArredondarPanel(pnlMarrom2, 35);
             ArredondarPanel(pnlDados, 35);
-            ArredondarPanel(pnlDados2, 35);
-            ArredondarPanel(pnlDados3, 35);
             ArredondarPanel(pnlResu, 35);
+            ArredondarPanel(pnlLaranja1, 35);
             ArredondarPanel(pnlLaranja2, 35);
-            ArredondarPanel(pnl, 35);
+            ArredondarPanel(pnlCreme1, 35);
+            ArredondarPanel(pnlCreme2, 35);
             ArredondarLabel(lblDados, 15);
             ArredondarLabel(lblResu, 15);
         }
@@ -53,7 +55,6 @@ namespace PetsCity
 
             label.Region = new Region(caminho);
         }
-
     }
 
 
